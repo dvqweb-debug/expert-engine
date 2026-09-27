@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot Đơn Giản</title>
+    <title>Chatbox thông minh</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -109,24 +109,24 @@
         // ==========================================
         function getBotResponse(input) {
             // Chuyển chữ về chữ thường và bỏ khoảng trắng thừa để dễ khớp lệnh
-            input = input.toLowerCase().trim();
+            input = input.toLowerCase("xin chào quý khách").trim();
 
             // Đặt các điều kiện câu hỏi và câu trả lời tương ứng ở đây:
-            if (input.includes("xin chào") || input.includes("chào")) {
-                return "Chào bạn! Chúc bạn một ngày tốt lành.";
+            if (input.includes("phù hợp cho mùa hè") || input.includes("mùa hè")) {
+                return "ô vậy là bà đang tìm đến món bán chạy nhất quán rồi. TRÀ TẮC là món rất phù hợp cho mùa hè này;
             } 
-            else if (input.includes("tên gì") || input.includes("bạn là ai")) {
-                return "Tôi là một chatbot đơn giản được tạo bởi bạn!";
+            else if (input.includes("giá") || input.includes("bao nhiêu tiền")) {
+                return "hiện tại món này tại quán tui có giá 20k!";
             } 
-            else if (input.includes("giá") || input.includes("chi phí")) {
-                return "Dịch vụ của chúng tôi hoàn toàn miễn phí nhé.";
+            else if (input.includes("phù hợp cho mùa đông") || input.includes("mùa đông")) {
+                return "Mùa đông thì rất phù hợp nếu bà thử mì cay.";
             } 
-            else if (input.includes("liên hệ") || input.includes("sdt") || input.includes("email")) {
-                return "Bạn có thể liên hệ qua email: support@example.com hoặc số điện thoại: 0123456789.";
+            else if (input.includes("ai là người phát triển bạn") || input.includes("ai tạo ra bạn") || input.includes("chủ của bạn là ai")) {
+                return "Tui là một chatbox thông minh được phát triển từ Atlat(Quân) để phục vụ cho web gọi món của Vịt(Vy).";
             }
             
             // Câu trả lời mặc định nếu bot không hiểu ý người dùng
-            return "Xin lỗi, tôi chưa hiểu rõ ý bạn. Bạn có thể hỏi câu hỏi khác nhé!";
+            return "Xin lỗi, tui chưa hiểu rõ ý bạn. Bạn có thể hỏi lại hoặc đặt câu hỏi khác nhé!tui lổ tai cây bà thông cảm nghen";
         }
 
         // ==========================================
