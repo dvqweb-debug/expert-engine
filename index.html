@@ -108,15 +108,15 @@
         // KHU VỰC SOẠN CÂU HỎI VÀ CÂU TRẢ LỜI CHO BOT
         // ==========================================
         function getBotResponse(input) {
-            // Chuyển chữ về chữ thường và bỏ khoảng trắng thừa để dễ khớp lệnh
-            input = input.toLowerCase("xin chào quý khách").trim();
+            // Đã sửa lại cú pháp toLowerCase() chuẩn xác không bị lỗi
+            input = input.toLowerCase().trim();
 
             // Đặt các điều kiện câu hỏi và câu trả lời tương ứng ở đây:
             if (input.includes("phù hợp cho mùa hè") || input.includes("mùa hè")) {
-                return "ô vậy là bà đang tìm đến món bán chạy nhất quán rồi. TRÀ TẮC là món rất phù hợp cho mùa hè này;
+                return "Ô vậy là bà đang tìm đến món bán chạy nhất quán rồi. TRÀ TẮC là món rất phù hợp cho mùa hè này!";
             } 
             else if (input.includes("giá") || input.includes("bao nhiêu tiền")) {
-                return "hiện tại món này tại quán tui có giá 20k!";
+                return "Hiện tại món này tại quán tui có giá 20k!";
             } 
             else if (input.includes("phù hợp cho mùa đông") || input.includes("mùa đông")) {
                 return "Mùa đông thì rất phù hợp nếu bà thử mì cay.";
@@ -126,7 +126,7 @@
             }
             
             // Câu trả lời mặc định nếu bot không hiểu ý người dùng
-            return "Xin lỗi, tui chưa hiểu rõ ý bạn. Bạn có thể hỏi lại hoặc đặt câu hỏi khác nhé!tui lổ tai cây bà thông cảm nghen";
+            return "Xin lỗi, tui chưa hiểu rõ ý bạn. Bạn có thể hỏi lại hoặc đặt câu hỏi khác nhé! Tui lỗ tai cây bà thông cảm nghen.";
         }
 
         // ==========================================
