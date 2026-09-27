@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Web Đầu Tiên Của Tôi</title>
+    <title>GỌI MÓN NHANH VỚI MỘT LẦN CHẠM/title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 100px;
-            background-color: #f4f4f9;
+            background-color: #92e1e8;
         }
-        h1 {
-            color: #2c3e50;
+        h1 {Atlat chiên nước mắm 
+            color: #61fa7d;
         }
-        p {
-            color: #555;
+        p {29k
+            color: #d11b1b;
         }
     </style>
 </head>
 <body>
-    <h1>Xin chào thế giới! 👋</h1>
+    <h1>Xin chào Quý khách! 👋</h1>
     <p>Trang web của tôi đang được chạy bằng GitHub Pages.</p>
 </body>
 </html>
